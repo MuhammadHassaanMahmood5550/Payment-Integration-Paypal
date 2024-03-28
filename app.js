@@ -10,8 +10,8 @@ const app = express();
 
 paypal.configure({
     'mode': 'sandbox', //sandbox or live //sandbox means demo/try
-    'client_id': 'AYyJQn7Mn56LGjj2IysLYnXJuDN5iVCoT7gnNz9NgyCPkaOKVXYCP0uPYqY1-LoozPcJ5_d-s02wdyhg',
-    'client_secret': 'EB41Atj-4-GEfTVFie1MKjqXx0GSnQUdXGyiRzBINh03Dn3k-Z6pbt-dlV9kk9fkLhFwXW_dpfefXWHz'
+    'client_id': '******',
+    'client_secret': '*****'
 });
 
 app.get('/', (req, res) => {
